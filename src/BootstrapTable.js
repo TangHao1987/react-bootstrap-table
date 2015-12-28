@@ -616,7 +616,7 @@ BootstrapTable.propTypes = {
     onSizePerPageList: React.PropTypes.func
   }),
   fetchInfo: React.PropTypes.shape({
-    dataTotalSize: React.PropTypes.number,
+    dataTotalSize: React.PropTypes.number
   }),
   exportCSV: React.PropTypes.bool,
   csvFileName: React.PropTypes.string
@@ -666,7 +666,7 @@ BootstrapTable.defaultProps = {
     onSizePerPageList: undefined
   },
   fetchInfo: {
-    dataTotalSize: 0,
+    dataTotalSize: 0
   },
   exportCSV: false,
   csvFileName: undefined
